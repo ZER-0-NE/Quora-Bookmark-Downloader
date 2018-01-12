@@ -11,7 +11,7 @@ from urllib.request import urlopen
 brow=webdriver.Chrome("/Users/wolf/Desktop/chromedriver")
 brow.get("https://www.quora.com/bookmarked_answers")
 wait_inp=input("\n\n\t\tPress Enter after Bookmark page is Fully Loaded\n\n")
-
+brow.implicitly_wait(10) #To avoid timeout errors
 
 first_question=brow.find_element_by_class_name("question_link").text # or "question_text" if an error occurs.
 brow.get("https://www.quora.com/bookmarked_answers?order=desc")
