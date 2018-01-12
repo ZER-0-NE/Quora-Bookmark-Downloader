@@ -13,7 +13,7 @@ brow.get("https://www.quora.com/bookmarked_answers")
 wait_inp=input("\n\n\t\tPress Enter after Bookmark page is Fully Loaded\n\n")
 
 
-first_question=brow.find_element_by_class_name("question_link").text
+first_question=brow.find_element_by_class_name("question_link").text # or "question_text" if an error occurs.
 brow.get("https://www.quora.com/bookmarked_answers?order=desc")
 
 
