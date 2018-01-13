@@ -24,9 +24,15 @@ A Python Script to download bookmarked answers from Quora.com
   * `pip install beautifulsoup4`
 
 #### Note ####
-pdfkit also require wkhtmltopdf
+1. pdfkit also require wkhtmltopdf
 
 Install it from `https://wkhtmltopdf.org/downloads.html`
+
+2. Chromedriver is required 
+
+Install it from `https://sites.google.com/a/chromium.org/chromedriver/downloads`
+
+3. Change `brow=webdriver.Chrome("/Users/Wolf/Desktop/chromedriver")` to `brow=webdriver.Chrome("/Users/USERNAME/Desktop/chromedriver")`
 
 # Run
 
