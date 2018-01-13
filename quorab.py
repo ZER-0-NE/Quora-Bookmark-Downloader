@@ -4,8 +4,9 @@ from selenium import webdriver
 import time
 import pyperclip
 import pdfkit
+import urllib
 from bs4 import BeautifulSoup
-from urllib.request import urlopen
+#from urllib.request import urlopen
 
 
 brow=webdriver.Chrome("/Users/wolf/Desktop/chromedriver")
