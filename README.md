@@ -32,11 +32,11 @@ Install it from `https://wkhtmltopdf.org/downloads.html`
 
 Install it from `https://sites.google.com/a/chromium.org/chromedriver/downloads`
 
-3. Change `brow=webdriver.Chrome("/Users/Wolf/Desktop/chromedriver")` to `brow=webdriver.Chrome("/Users/USERNAME/Desktop/chromedriver")`
+3. Change `brow=webdriver.Chrome("/Users/Wolf/Desktop/chromedriver")` to `brow=webdriver.Chrome("PATH-FOR-CHROMEDRIVER")`
 
 # Run
 
-just run it from terminal/command prompt `python quorab.py`
+Just run it from terminal/command prompt `python quorab.py`
 
 ### Note ###
 After a new chrome window is opened, you have to just enter your account credentials and press `Enter` after that.
